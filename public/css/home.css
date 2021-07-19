@@ -1,0 +1,152 @@
+.home main{
+    width: 90%;
+    background-color: var(--GrisClaro);
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.home main .banner img{
+    width: 100%;
+    display: none;
+}
+
+.home main h2{
+    width: 100%;
+    font-size: 24px;
+    margin: 10px 0;
+    color: var(--GrisOscuro);
+    text-align: center;
+}
+
+.home main section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home main article img {
+    width: 60%;
+}
+
+.home main section article{
+    margin: 10px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.home main article img {
+    width: 100%;
+}
+
+.home main section article section{
+    border-top: 1px solid var(--GrisClaro);
+    margin: 15px;
+    display: flex;
+}
+
+.home main section article section div.truck{
+    width: 100%;
+    text-align: right;
+}
+
+.home main section article section div i{
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid var(--Verde);
+    color: var(--Verde);
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.home main section article section div.price{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+
+.home main article section span {
+    width: 30%;
+    font-size: 18px;;
+}
+
+.home main article section p{
+    color: var(--Verde);
+    font-size: 16px;
+    width: 70%;
+}
+
+.home main article h4{
+    color: var(--GrisOscuro);
+    margin: 15px;
+    text-align: left;
+    display: none;
+}
+
+/* tablet */
+
+@media (min-width: 768px) {
+
+    .home main {
+        width: 100%;
+    }
+
+    .home main .banner img{
+        display: block;
+    }
+
+    .home main h2{
+        font-size: 1.8rem;
+        margin: 20px 0;
+    }
+
+    .home main section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .home main article img {
+        width: 100%;
+    }
+
+    .home main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin-left: 10px;
+        width: 45%;
+        margin-bottom: 10px;
+
+    }
+
+    .home main section article h4{
+        display: block;
+    }
+}
+
+/* desktop */
+
+@media (min-width: 1024px) {
+
+    /* main */
+
+    .home main h2{
+        font-size: 2rem;
+    }
+
+    .home main section article{
+        width: 22%;
+    }
+
+    /* footer */
+
+    .home footer div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home footer div section{
+        padding: 10px;
+        width: 30%;
+    }
+
+}
