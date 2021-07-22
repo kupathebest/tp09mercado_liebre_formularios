@@ -21,13 +21,14 @@
 
 .login main small{
     color: red;
-    display: none
 }
 
 .login main input{
     margin: 0 2px;
     height: 30px;
     width: 100%;
+    border: none;
+    border-radius: 3px;
 }
 
 .login main button{
@@ -36,4 +37,11 @@
     background-color: var(--Celeste);
     color: white;
     font-size: 1rem;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.login main button:hover{
+    background-color: var(--Azul);
+    border: 1px solid white;
 }

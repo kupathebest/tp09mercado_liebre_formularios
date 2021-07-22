@@ -1,7 +1,7 @@
 .register main{
     width: 100%;
-}
 
+}
 .register main h1{
     text-align: center;
     margin: 20px 0;
@@ -18,6 +18,8 @@
     margin: 0 2px;
     height: 30px;
     width: 80%;
+    border: none;
+    border-radius: 3px;
 }
 
 .register main form{
@@ -66,13 +68,12 @@
     border: white;
     border-radius: 10px;
     background-color: var(--Celeste);
-    text-decoration: underline;
+    width: 200px;
 }
 
 .register main form div.buttons button:hover{
-    background-color: white;
-    border: 1px solid var(--Celeste);
-    color: var(--Celeste);
+    background-color: var(--Azul);
+    border: 1px solid white;
 }
 
 /* tablet */
