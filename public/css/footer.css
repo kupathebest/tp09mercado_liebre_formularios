@@ -15,6 +15,7 @@ footer section h3{
 }
 
 footer section p{
+    color: var(--GrisOscuro);
     padding: 0px 30px 0px 30px;
 }
 
